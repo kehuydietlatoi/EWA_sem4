@@ -1,0 +1,97 @@
+@import url('./base.css');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
+
+body {
+    background-image: url('../img/wallpaper-landing.jpg');
+    background-size: contain;
+    background-position-x: 45vw;
+}
+
+.landing-main {
+    display: flex;
+    flex-flow: column;
+    width: 45%;
+    height: 100%;
+    padding: 4.68rem;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 0 0.875rem 0 rgba(0, 0, 0, 0.15);
+}
+
+.landing-block {
+    margin-top: auto;
+}
+
+.landing-button {
+    display: inline-block;
+    font-family: 'Roboto';
+    font-weight: 300;
+    text-decoration: none;
+    border: 0;
+    padding: 16px 32px;
+    background: #135392;
+    font-size: 18px;
+    color: white;
+    box-shadow: 0 0.188rem 0.5rem 0 rgba(0, 0, 0, 0.25);
+    margin: 2rem 0;
+}
+
+.landing-header {
+    font-family: 'Titillium Web';
+    font-weight: bold;
+    font-size: 3.875rem;
+    color: #4B4B4B;
+}
+
+.landing-text {
+    color: #777777;
+    font-size: 1.375rem;
+    font-family: 'Roboto';
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-links {
+    display: flex;
+    width: 100%;
+    padding-left: 4.68rem;
+    box-sizing: border-box;
+    justify-content: space-around;
+}
+
+.navbar-link {
+    color: gray;
+    font-family: 'Roboto';
+    font-weight: 300;
+    padding-bottom: 0.25rem;
+    transition-duration: .25s;
+    border-bottom: 1px solid white;
+    text-decoration: none !important;
+}
+
+.navbar-link:hover {
+    transition-duration: .25s;
+    border-bottom: 1px solid #135392;
+}
+
+
+@media screen and (max-width: 1366px) {
+    .landing-main {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .landing-main {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 690px) {
+    .landing-main {
+        width: 100%;
+    }
+}

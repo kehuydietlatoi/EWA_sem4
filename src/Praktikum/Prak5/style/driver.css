@@ -1,0 +1,22 @@
+/*driver*/
+.driver-meta{
+    margin: auto;
+    text-align: center;
+}
+
+.orders-driver-overview{
+    width: 75%;
+    margin: auto;
+}
+.box-pizza{
+    background-color: white;
+    display: flex;
+    margin: 1.5rem;
+    padding: 1rem;
+}
+.pizza-name{
+    margin-left: 3.125rem;
+}
+.div-input{
+    margin: 1.5rem;
+}
